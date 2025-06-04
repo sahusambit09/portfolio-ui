@@ -1,0 +1,23 @@
+/* src/pages/BlogPost.css */
+.blog-post {
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .post-date {
+    color: #888;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  .post-content {
+    line-height: 1.6;
+    margin-bottom: 2rem;
+  }
+  .back-link {
+    color: #61dafb;
+    text-decoration: none;
+  }
+  .back-link:hover {
+    text-decoration: underline;
+  }
+  

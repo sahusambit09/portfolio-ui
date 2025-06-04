@@ -1,0 +1,21 @@
+/* src/pages/BlogList.css */
+.blog-list {
+    padding: 2rem 1rem;
+  }
+  .post-preview {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+  }
+  .post-date {
+    color: #888;
+    font-size: 0.9rem;
+  }
+  .read-more {
+    color: #61dafb;
+    text-decoration: none;
+  }
+  .read-more:hover {
+    text-decoration: underline;
+  }
+  

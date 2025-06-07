@@ -4,10 +4,12 @@ import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 function Navbar() {
+  
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <Link to="/">MyLogo</Link>
+        <Link to="/"><img src={process.env.PUBLIC_URL + '/prof/picofme (7).png'}
+  alt="MyLogo" style={{ height: 90, width: 'auto' }}/></Link>
       </div>
       <ul className="navbar-links">
         <li><Link to="/">Home</Link></li>
